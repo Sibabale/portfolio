@@ -1,22 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TestImage from "../../assets/images/test.png"
-import ThemeImage from "../../assets/images/theme.png"
-import ServerImage from "../../assets/images/Server.png"
-import ComponentsImage from "../../assets/images/components.png"
+
+import { Navbar } from "../../components/navbar";
+import TestImage from "../../assets/images/development/test.png"
+import ThemeImage from "../../assets/images/development/theme.png"
+import ServerImage from "../../assets/images/development/Server.png"
+import ComponentsImage from "../../assets/images/development/components.png"
 import InterfacesImage from "../../assets/images/interfaces.png"
-import IntegrationImage from "../../assets/images/Integration.png"
+import IntegrationImage from "../../assets/images/development/Integration.png"
 
 export const DevelopmentProcess = () => {
   return (
     <div className="bg-black">
-      <nav className="flex justify-between py-5 px-20">
-        <Link to="/" className="text-white">sibabale.dev</Link>
-        <div className="w-2/12 flex justify-between">
-          <Link to="/design" className="text-white">design</Link>
-          <Link to="/development" className="text-white line-through">development</Link>
-        </div>
-      </nav>
+      <Navbar />
 
       <main>
         <div className="py-60 px-20">
