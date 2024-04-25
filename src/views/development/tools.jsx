@@ -63,10 +63,10 @@ export const DevelopmentTools = () => {
             </Link>
             <Link to="https://m3.material.io/" className="flex flex-col items-center justify-end">
               <img src={MaterialImage} alt="The logo of material" />
-              <span className="text-white font-thin mt-10">material</span>
+              <span className="text-white font-thin mt-10">material ui</span>
             </Link>
           </div>
-         
+
 
           <div className="mb-10 w-2/12 border-b"><h2 className="text-white">data</h2></div>
           <div className="flex justify-between mb-40">
