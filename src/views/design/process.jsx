@@ -1,6 +1,7 @@
 import React from "react";
-import {NavLink, Link } from "react-router-dom";
+import { Navbar } from "../../components/navbar";
 
+import PhoneImage from "../../assets/images/design/phone.png"
 import MotionImage from "../../assets/images/design/bouncing-ball.png"
 import IdeationImage from "../../assets/images/design/light-bulb.png"
 import WireframeImage from "../../assets/images/design/wireframe.png"
@@ -10,13 +11,7 @@ import MagnifyingGlassImage from "../../assets/images/design/magnifying-glass.pn
 export const DesignProcess = () => {
   return (
     <div className="bg-black">
-      <nav className="flex justify-between py-5 px-20">
-        <Link to="/" className="text-white">sibabale.dev</Link>
-        <div className="w-2/12 flex justify-between">
-        <Link to="/design" className="text-white line-through">design</Link>
-          <NavLink to="/development" className="text-white">development</NavLink>
-        </div>
-      </nav>
+    <Navbar />
 
       <main>
         <div className="py-60 px-20">
@@ -50,8 +45,8 @@ export const DesignProcess = () => {
         </div>
         <div className="flex justify-between">
           <div className="flex flex-col items-center justify-end">
-            <img src={WireframeImage} alt="A wireframe design" />
-            <span className="text-white font-thin mt-10">conceptualise</span>
+            <img src={PhoneImage} alt="A wireframe design" />
+            <span className="text-white font-thin mt-10">mockups</span>
           </div>
           <div className="flex flex-col items-center justify-end">
             <img src={MotionImage} alt="A bouncing ball" />
