@@ -6,7 +6,7 @@ import {ReactComponent as DribbleImage } from "../assets/images/design/dribble.s
 export const Navbar = () => {
     return (
         <nav className="flex justify-between py-5 px-20">
-            <Link to="/" className="text-white">sibabale.dev</Link>
+            <Link to="/" className="text-white font-bold">sibabale.dev</Link>
             <div className="w-4/12 flex justify-between items-center">
                 <NavLink
                     to="/design"
@@ -23,6 +23,12 @@ export const Navbar = () => {
                     }
                 >
                     development
+                </NavLink>
+                <NavLink className="text-white"
+                    target="__blank"
+                    to="https://medium.com/@sibabalejoja"
+                >
+                    blog
                 </NavLink>
                 <NavLink className="text-white"
                     target="__blank"
