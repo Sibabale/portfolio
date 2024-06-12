@@ -30,3 +30,10 @@ p, a {
   font-weight: 400;
   font-style: normal;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}

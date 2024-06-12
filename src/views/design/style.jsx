@@ -9,15 +9,12 @@ export const DesignStyle = () => {
       <Navbar />
 
       <main>
-        <div className="py-60 px-20">
-          
-          <div  className="w-6/12 mb-20 flex flex-col">
-            <h2 className="text-white mb-10"><s className="mr-5">design</s>style?</h2>
-            <p className="text-white font-thin mb-4">currently most of my designs follow a minimalist and flat design focusing on simplicity, clean lines, and a limited color palette avoiding gradients and shadows.</p>
+        <div className="p-10 md:p-20 lg:py-60 lg:px-20">
+          <h2 className="text-white mb-10"><s>Design</s><span className="ml-5">Style</span></h2>
+          <div className="w-full  mb-20 flex flex-col md:flex-row md:mt-20">
+            <p className="text-white font-thin mb-4 order-2 ">Currently most of my designs follow a minimalist and flat design focusing on simplicity, clean lines, and a limited color palette avoiding gradients and shadows.</p>
+            <img src={ShapesImage} alt="A triangle and a circle" className="mb-10 md:mb-0 md:mr-20 md:w-1/3" />
           </div>
-
-          <img src={ShapesImage} alt="A triangle and a circle" />
-
         </div>
       </main>
     </div>

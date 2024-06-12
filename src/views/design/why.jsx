@@ -8,14 +8,13 @@ export const WhyDesign = () => {
       <Navbar />
 
       <main>
-        <div className="py-60 px-20">
+        <div className="p-10 md:p-20 lg:py-60 lg:px-20 ">
           
-          <div className="w-6/12 mb-20 flex flex-col">
-            <h2 className="text-white mb-10"><span className="mr-5">why?</span><s>design</s></h2>
-            <p className="text-white font-thin mb-4">at one point in my life i wanted to be an animator, i loved drawing cartoons</p>
+            <h2 className="text-white mb-10"><s>Design</s><span className="ml-5">Why?</span></h2>
+          <div className="w-full  mb-20 flex flex-col md:flex-row md:mt-20">
+            <p className="text-white font-thin mb-4 order-2 ">At one point in my life i wanted to be an animator, i loved drawing cartoons</p>
+            <img src={CatImage} alt="A drawing of a cat" className="mb-10 md:mb-0 md:mr-20" />
           </div>
-
-          <img src={CatImage} alt="A drawing of a cat" />
 
         </div>
       </main>

@@ -14,22 +14,58 @@ export const DesignProcess = () => {
     <Navbar />
 
       <main>
-        <div className="py-60 px-20">
+        <div className="p-10 lg:p-20 lg:py-60 lg:px-20">
           
-          <div className="w-6/12 mb-20 flex flex-col">
-            <h2 className="text-white mb-10"><s>design</s><span className="ml-5">process</span></h2>
+          <div className="w-full lg:w-6/12 mb-20 flex flex-col">
+            <h2 className="text-white mb-28 lg:mb-10"><s>design</s><span className="ml-5">process</span></h2>
             <ul>
-              <li className="list-disc text-white font-thin mb-4">i first think and brainstorm the idea by building full case study with problem statements and personas.</li>
-              <li className="list-disc text-white font-thin mb-4">research is key to validating assumptions and building a solid foundation for a project</li>
-              <li className="list-disc text-white font-thin mb-4">hand drawn wireframes are the best way to let my creativity and think process flow freely without the restriction of design tools.</li>
-              <li className="list-disc text-white font-thin mb-4">tools like figma then allow me to conceptualize the idea into a product.</li>
-              <li className="list-disc text-white font-thin mb-4">motion design brings feelings and life into a applications that are often 2 dimensional and lifeless.</li>
-              <li className="list-disc text-white font-thin mb-4">lastly i prototype and test my applications.</li>
+              <li className="lg:list-disc text-white font-thin mb-20 lg:mb-4">
+                <div className="lg:hidden flex items-center mb-5">
+                  <img src={IdeationImage} alt="A light bulb." className="w-10" />
+                  <span className="text-white font-thin ml-5">Ideation</span>
+                </div>
+                <p>I first think and brainstorm the idea by building full case study with problem statements and personas.</p>
+              </li>
+              <li className="lg:list-disc text-white font-thin mb-20 lg:mb-4">
+                <div className="lg:hidden flex items-center mb-5">
+                  <img src={MagnifyingGlassImage} alt="A magnifying glass" className="w-10" />
+                  <span className="text-white font-thin ml-5">Research</span>
+                </div>
+                <p>Research is key to validating assumptions and building a solid foundation for a project</p>
+              </li>
+              <li className="lg:list-disc text-white font-thin mb-20 lg:mb-4">
+                  <div className="lg:hidden flex items-center mb-5">
+                    <img src={WireframeImage} alt="A wireframe design" className="w-10" />
+                    <span className="text-white font-thin ml-5">Wireframes</span>
+                  </div>
+                  <p>Hand drawn wireframes are the best way to let my creativity and think process flow freely without the restriction of design tools.</p>
+              </li>
+              <li className="lg:list-disc text-white font-thin mb-20 lg:mb-4">
+                  <div className="lg:hidden flex items-center mb-5">
+                    <img src={PhoneImage} alt="A wireframe design" className="w-10" />
+                    <span className="text-white font-thin ml-5">Mockups</span>
+                  </div>
+                  <p>Tools like figma then allow me to conceptualize the idea into a product.</p>
+              </li>
+              <li className="lg:list-disc text-white font-thin mb-20 lg:mb-4">
+                  <div className="lg:hidden flex items-center mb-5">
+                    <img src={MotionImage} alt="A bouncing ball" className="w-20" />
+                    <span className="text-white font-thin ml-5">Motion</span>
+                  </div>
+                  <p>Motion design brings feelings and life into a applications that are often 2 dimensional and lifeless.</p>
+              </li>
+              <li className="lg:list-disc text-white font-thin mb-20 lg:mb-4">
+                  <div className="lg:hidden flex items-center mb-5">
+                    <img src={InterfacesImage} alt="A computer and a phone" className="w-20" />
+                    <span className="text-white font-thin ml-5">Prototyping</span>
+                  </div>
+                  <p>Lastly i prototype and test my applications.</p>
+              </li>
             </ul>
             <p className="text-white font-thin mt-10"><i><b className="mr-4"><u>NB</u></b>Depending on a project I follow this is my process chronologically and sometimes I omit some steps.</i></p>
           </div>
 
-        <div className="flex justify-between mb-40">
+        <div className="hidden lg:flex justify-between mb-40">
           <div className="flex flex-col items-center">
             <img src={IdeationImage} alt="A light bulb." />
             <span className="text-white font-thin mt-10">ideation</span>
@@ -43,7 +79,7 @@ export const DesignProcess = () => {
             <span className="text-white font-thin mt-10">wireframing</span>
           </div>
         </div>
-        <div className="flex justify-between">
+        <div className="hidden lg:flex justify-between">
           <div className="flex flex-col items-center justify-end">
             <img src={PhoneImage} alt="A wireframe design" />
             <span className="text-white font-thin mt-10">mockups</span>
