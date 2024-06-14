@@ -1,14 +1,14 @@
 <svg width="201" height="" viewBox="0 0 201 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="3.15747" y="1.00049" width="194.766" height="29.0811" rx="14.5405" stroke="white" stroke-width="2"/>
-<circle cx="13.6575" cy="15.541" r="1.5" fill="#D9D9D9"/>
-<circle cx="26.6575" cy="15.541" r="1.5" fill="#D9D9D9"/>
-<circle cx="39.6575" cy="15.541" r="1.5" fill="#D9D9D9"/>
-<rect x="3.15723" y="69.9194" width="194.766" height="29.0811" rx="14.5405" stroke="white" stroke-width="2"/>
-<circle cx="13.6572" cy="84.46" r="1.5" fill="#D9D9D9"/>
-<circle cx="26.6572" cy="84.46" r="1.5" fill="#D9D9D9"/>
-<circle cx="39.6572" cy="84.46" r="1.5" fill="#D9D9D9"/>
-<rect x="1.16062" y="0.865125" width="194.193" height="28.7252" rx="14.3626" transform="matrix(0.992692 -0.120673 0.167932 0.985798 0.403726 44.5814)" stroke="white" stroke-width="2"/>
-<circle cx="1.5" cy="1.5" r="1.5" transform="matrix(0.992692 -0.120673 0.167932 0.985798 12.7954 56.8881)" fill="#D9D9D9"/>
-<circle cx="1.5" cy="1.5" r="1.5" transform="matrix(0.992692 -0.120673 0.167932 0.985798 25.7004 55.3193)" fill="#D9D9D9"/>
-<circle cx="1.5" cy="1.5" r="1.5" transform="matrix(0.992692 -0.120673 0.167932 0.985798 38.6055 53.7506)" fill="#D9D9D9"/>
+<rect x="3.15747" y="1.00049" width="194.766" height="29.0811" rx="14.5405"  stroke="black" stroke-width="2"/>
+<circle cx="13.6575" cy="15.541" r="1.5" fill="#000"/>
+<circle cx="26.6575" cy="15.541" r="1.5" fill="#000"/>
+<circle cx="39.6575" cy="15.541" r="1.5" fill="#000"/>
+<rect x="3.15723" y="69.9194" width="194.766" height="29.0811" rx="14.5405"  stroke="black" stroke-width="2"/>
+<circle cx="13.6572" cy="84.46" r="1.5" fill="#000"/>
+<circle cx="26.6572" cy="84.46" r="1.5" fill="#000"/>
+<circle cx="39.6572" cy="84.46" r="1.5" fill="#000"/>
+<rect x="1.16062" y="0.865125" width="194.193" height="28.7252" rx="14.3626" transform="matrix(0.992692 -0.120673 0.167932 0.985798 0.403726 44.5814)"  stroke="black" stroke-width="2"/>
+<circle cx="1.5" cy="1.5" r="1.5" transform="matrix(0.992692 -0.120673 0.167932 0.985798 12.7954 56.8881)" fill="#000"/>
+<circle cx="1.5" cy="1.5" r="1.5" transform="matrix(0.992692 -0.120673 0.167932 0.985798 25.7004 55.3193)" fill="#000"/>
+<circle cx="1.5" cy="1.5" r="1.5" transform="matrix(0.992692 -0.120673 0.167932 0.985798 38.6055 53.7506)" fill="#000"/>
 </svg>

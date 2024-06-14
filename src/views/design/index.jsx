@@ -4,29 +4,29 @@ import { Navbar } from "../../components/navbar";
 
 export const Design = () => {
   return (
-    <div className="bg-black">
+    <div  >
      <Navbar/>
       <main>
         <div className="p-10 md:p-20 lg:py-60 lg:px-20">
           
           <Link to="/design/why" className="w-full lg:w-4/12 mb-20 flex flex-col">
-            <h2 className="text-2xl text-white mb-10">why?</h2>
-            <p className="text-white font-light">how come i am designer? well i think everyone is born with a talent or a purpose and I was born to design or to be a creative.</p>
+            <h2 className="text-2xl mb-10">why?</h2>
+            <p className=" font-light">how come i am designer? well i think everyone is born with a talent or a purpose and I was born to design or to be a creative.</p>
           </Link>
 
           <Link to="/design/style" className="w-full lg:w-4/12 mb-20 flex flex-col">
-            <h2 className="text-2xl text-white mb-10">style</h2>
-            <p className="text-white font-light">morden minimalist.</p>
+            <h2 className="text-2xl  mb-10">style</h2>
+            <p className=" font-light">morden minimalist.</p>
           </Link>
 
           <Link to="/design/process" className="w-full lg:w-4/12 mb-20 flex flex-col">
-            <h2 className="text-2xl text-white mb-10">process</h2>
-            <p className="text-white font-light">define project goals, conducting user research, create wireframes and high-fidelity mockups before prototyping. rinse & repeat</p>
+            <h2 className="text-2xl  mb-10">process</h2>
+            <p className=" font-light">define project goals, conducting user research, create wireframes and high-fidelity mockups before prototyping. rinse & repeat</p>
           </Link>
 
           <Link to="/design/tools" className="w-full lg:w-4/12 mb-20 flex flex-col">
-            <h2 className="text-2xl text-white mb-10">tools</h2>
-            <p className="text-white font-light">to efficiently visualize, iterate, and present my design work throughout the project lifecycle i use various tools like...</p>
+            <h2 className="text-2xl  mb-10">tools</h2>
+            <p className=" font-light">to efficiently visualize, iterate, and present my design work throughout the project lifecycle i use various tools like...</p>
           </Link>
 
         </div>
