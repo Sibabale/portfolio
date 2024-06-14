@@ -27,6 +27,12 @@ export const Navbar = () => {
                     </NavLink>
                     <NavLink
                         target="__blank"
+                        to="https://linktr.ee/sibabale?utm_source=linktree_admin_share"
+                    >
+                        projects
+                    </NavLink>
+                    <NavLink
+                        target="__blank"
                         to="https://medium.com/@sibabalejoja"
                     >
                         blog
