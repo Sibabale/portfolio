@@ -7,7 +7,7 @@ export const Design = () => {
     <div className="bg-black">
      <Navbar/>
       <main>
-        <div className="p-10 md:p-20 lg:pl-60 lg:pt-60">
+        <div className="p-10 md:p-20 lg:py-60 lg:px-20">
           
           <Link to="/design/why" className="w-full lg:w-4/12 mb-20 flex flex-col">
             <h2 className="text-2xl text-white mb-10">why?</h2>

@@ -1,3 +1,9 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('http://fxaeberhard.github.io/handdrawn.css/handdrawn.min.css');
+@import url('./styles/doodle.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,13 +12,14 @@ body {
   background-color: black;
 }
 h2 {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Short Stack', cursive;
   font-weight: 200;
   font-style: normal;
 }
 
 p, a {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 #navbar a.active {
