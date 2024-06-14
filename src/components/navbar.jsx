@@ -7,7 +7,7 @@ export const Navbar = () => {
     return (
         <nav className="flex py-5 px-5 lg:px-20 justify-end lg:justify-between">
             <div className="hidden w-full lg:flex justify-between ">
-                <Link to="/" className="text-2xl font-bold">sibabale.dev</Link>
+                <Link to="/" className="text-2xl font-bold">sibabale</Link>
                 <div className="w-4/12 flex justify-between items-center">
                     <NavLink
                         to="/design"
