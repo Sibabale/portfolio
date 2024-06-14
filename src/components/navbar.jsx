@@ -39,7 +39,7 @@ export const Navbar = () => {
                     </NavLink>
                     <NavLink
                         target="__blank"
-                        to="https://firebasestorage.googleapis.com/v0/b/portfolio-5c4f6.appspot.com/o/S.Joja%20CV.pdf?alt=media&token=4496e4dc-beae-4346-b269-839b8a4e3730"
+                        to="https://firebasestorage.googleapis.com/v0/b/portfolio-5c4f6.appspot.com/o/S.Joja%20CV.pdf?alt=media&token=ff3c1fad-daef-413b-9425-cd9b95bc1cf1"
                     >
                         cv
                     </NavLink>
