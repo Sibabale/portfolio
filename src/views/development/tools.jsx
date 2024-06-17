@@ -23,14 +23,14 @@ import { ReactComponent as ApolloGraphQLImage } from "../../assets/images/tools/
 
 export const DevelopmentTools = () => {
   return (
-    <div  >
+    <div className="overflow-x-hidden">
       <Navbar/>
 
       <main>
         <div className="p-5 md:p-20 lg:py-60 lg:px-20">
           
           <div  className="w-full lg:w-6/12 mb-20 flex flex-col">
-            <h2 className="text-2xl mb-10"><s>development</s><span className="ml-5">tools</span></h2>
+            <h2 className="text-2xl mb-10"><span className="auto-strike">development</span><span className="ml-5">tools</span></h2>
             <p className="text-base font-thin mb-4">I use various languages, frameworks and style libraries to efficiently build full-stack applications that are scalable and responsive.</p>
           </div>
 

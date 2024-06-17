@@ -12,14 +12,14 @@ import { ReactComponent as IntegrationImage } from "../../assets/images/developm
 
 export const DevelopmentProcess = () => {
   return (
-    <div >
+    <div className="overflow-x-hidden">
       <Navbar />
 
       <main>
         <div className="p-10 lg:p-20 lg:py-60 lg:px-20">
           
           <div className="w-full lg:w-6/12 mb-20 flex flex-col">
-            <h2 className=" text-2xl mb-28 lg:mb-10"><s>development</s><span className="ml-5">process</span></h2>
+            <h2 className=" text-2xl mb-28 lg:mb-10"><span className="auto-strike">development</span><span className="ml-5">process</span></h2>
             <ul>
               <li className="font-thin mb-20 lg:mb-4">
                 <div className="lg:hidden flex items-center mb-5">

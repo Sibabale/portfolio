@@ -4,13 +4,13 @@ import { ReactComponent as CatImage} from "../../assets/images/design/cat.svg"
 
 export const WhyDesign = () => {
   return (
-    <div  >
+    <div className="overflow-x-hidden">
       <Navbar />
 
       <main>
         <div className="p-10 md:p-20 lg:py-60 lg:px-20 ">
           
-          <h2 className="text-2xl mb-10"><s>design</s><span className="ml-5">why?</span></h2>
+          <h2 className="text-2xl mb-10"><span className="auto-strike">design</span><span className="ml-5">why?</span></h2>
           <div className="w-full mb-20 flex flex-col md:flex-row md:mt-20">
             <div className="md:w-1/2 order-2 mb-4">
 

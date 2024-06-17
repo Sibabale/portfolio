@@ -3,7 +3,7 @@ import { Navbar } from "../../components/navbar";
 
 export const Home = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen overflow-x-hidden">
       <Navbar />
 
       <main>
